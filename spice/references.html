@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SPICE mission concept</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--#include virtual="assets/html/analytics.html"-->
+	<!-- <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"> -->
+	<link rel="stylesheet" href="assets/css/juxtapose.css">
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper" class="divided">
+		<!--#include virtual="assets/html/header.html"-->
+
+		<section class="wrapper style1 invert align-left" id="plots">
+			<div class="inner">
+				<h2>References</h2>
+
+				<ol>
+					<li><i>Astronomy and Astrophysics in the New Millennium</i>, C. McKee & J. Taylor, eds., National Academy Press, 2001 (Decadal Report)</li>
+					<li>Harwit, M. et al., "A Kilometer-Baseline Far-Infrared/Submillimeter Interferometer in Space," in Progress in Astronautics & Aeronautics, vol. 224, ed. M.S. Allen (AIAA: Reston, VA), pp. 301 &151; 326 (2008) (SPECS "vision mission" study report)</li>
+					<li>"Community Plan for Far-IR/Sub-mm Space Astronomy" 2003, in <i>New Concepts for Far-Infrared and Submillimeter Space Astronomy</i>, D.J. Benford & D.T. Leisawitz, eds. (Washington, DC: NASA), NASA CP-2003-212233, p. xv</li>
+					<li><i>Far-Infrared/Submillimeter Astronomy from Space: Tracking an Evolving Universe and the Emergence of Life &151; A White Paper and Set of Recommendations for The Astronomy & Astrophysics Decadal Survey of 2010</i>, M. Harwit, G. Helou, L. Armus, C.M. Bradford, P.F. Goldsmith, M. Hauser, D. Leisawitz, D.F. Lester, G. Rieke, and S.A. Rinehart, with contributions from M. Andersen, P. Appleton, E. Becklin, C. Beichman, E.A. Bergin, N. Billot, A. Blain, J.J. Bock, F. Boulanger, M.E. Brown, A. Burrows, D. Calzetti, S.J. Carey, C.H. Chen, E. Churchwell, K. Dasyra, P.K. Day, V. Desai, M. Devlin, M. Dickinson, C.D. Dowell, P. Echternach, F. Faustini, J. Fischer, D.T. Frayer, P.A. Gerakines, B. Gehrz, V. Gorjian, J.G. Ingalls, K.G. Isaak, H. Jang-Condell, M.E. Kenyon, P. Lawson, J. Lazio, M. Malkan, P.G. Martin, H. Matsuhara, M. Meixner, G. Melnick, S. Molinari, M. Morris, E.J. Murphy, T. Nakagawa, P. Ogle, C.G. Paine, Y. Pendleton, A.O. Petric, J. Pipher, T. Onaka, S. Radford, J. Rho, J. Rigby, A. Roberge, S. Salim, M. Shull, R.F. Silverberg, J. D. Smith, P.H. Stahl, C.C. Stark, H. Sugita, M. Tamura, M. Ward, A. Wootten, H.W. Yorke, and J. Zmuidzinas (updated "Far-IR Community Plan," 2009), <a href="http://www.ipac.caltech.edu/DecadalSurvey/WhitePaperDraftv8c_v1.1_13_Mar.2009.pdf">http://www.ipac.caltech.edu/DecadalSurvey/WhitePaperDraftv8c_v1.1_13_Mar.2009.pdf</a></li>
+					<li>Leisawitz, D., Baker, C., Barger, A., Benford, D., Blain, A., Boyle, R., Broderick, R., Budinoff, J., Carpenter, J., Caverly, R., Chen, P., Cooley, S., Cottingham, C., Crooke, J., DiPietro, D., DiPirro, M., Femiano, M., Ferrer, A., Fischer, J., Gardner, J.P., Hallock, L., Harris, K., Hartman, K., Harwit, M., Hillenbrand, L., Hyde, T., Jones, A., Kellogg, J., Kogut, A., Kuchner, M., Lawson, W., Lecha, J., Lecha, M., Mainzer, A., Mannion, J., Martino, A.,  Mason, P., Mather, J.C., McDonald, G., Mills, R., Mundy, L., Ollendorf, S., Pellicciotti, J., Quinn, D., Rhee, K., Rinehart, S.A., Sauerwine, T., Silverberg, R.F., Smith, T., Stacey, G., Stahl, H.P., Staguhn, J., Tompkins, S., Tveekrem, J., Wall, S., and Wilson, M., "<a href="documents/1.SPIRIT_misision_overview_COSPAR06.pdf">The Space Infrared Interferometric Telescope (SPIRIT): High-resolution imaging and spectroscopy in the far-infrared</a>," Adv. Sp. Res., 40, 689 (2007)</li>
+					<li>Espaillat, C. et al. 2008, ApJ, 689, L145</li>
+					<li>Brown, J. M. et al. 2007, ApJ, 665, L107</li>
+					<li>Mundy, L.G., Goldsmith, G., Leisawitz, D., and Wootten, A. "Dust Enshrouded Star and Planet Formation," an Astro2010 Science White Paper</li>
+					<li>Kamp, I. et al. 2005, in Astrochemistry: Recent Successes and Current Challenges, Proc. IAU Symp. 231, eds. D.C. Lis, G.A. Blake & E. Herbst (Cambridge: Cambridge Univ. Press), 377</li>
+					<li>Carr, J. S., & Najita, J. R. 2008, Science, 319, 1504</li>
+					<li>Pascucci, I. et al. 2007, ApJ, 663, 383</li>
+					<li>Glassgold, A.E., Najita, J., and Igea, J. 2004, ApJ, 615, 972</li>
+					<li>van Dishoeck, E.F. and Hogerheijde, M.R. 1999, in The Origin of Stars and Planetary Systems, eds. C.J. Lada and N.D. Kylafis (Kluwer Acad. Pub.), 97</li>
+					<li>Kuchner, M.J., and Seager, S., <a href="http://arxiv.org/abs/astro-ph/0504214v2">arXiv:astro-ph/0504214v2</a> (2005)</li>
+					<li>Larimer, J. W. 1975, Ge CoA, 39, 389</li>
+					<li>Hogerheijde, M.R., "Resolving water vapor in planet-forming disks," science white paper submitted to the Astro 2010 Decadal Survey (2009), <a href="http://www8.nationalacademies.org/astro2010/publicview.aspx">http://www8.nationalacademies.org/astro2010/publicview.aspx</a></li>
+					<li>Nisini, B. et al. 2000, A&A, 360, 297</li>
+					<li>Ford, K.E.S. and Neufeld, D.A. 2001, ApJ, 557, L113</li>
+					<li>Jura, M. 2005, AJ, 130, 1261</li>
+					<li>van Dishoeck, E.F. 2004, ARAA, 42, 119</li>
+					<li>Ozernoy, L.M., Gorkavyi, N.N., Mather, J.C., and Taidakova, T.A. 2000, ApJ, 537, L147</li>
+					<li>Moran, S.M., Kuchner, M.J., and Holman, M.J. 2004, ApJ, 612, 1163</li>
+					<li>Kalas, P., Graham, J.R., Clampin, M.C., and Fitzgerald, M.P. 2006, ApJ, 637, L57</li>
+					<li>Stapelfeldt, K.R. et al. 2004, ApJS, 154, 458</li>
+					<li>Wilner, D.J. et al. 2002, ApJ, 569, L115</li>
+					<li>Koerner, D.W., Sargent, A.I., and Ostroff, N.A. 2001, ApJ, 560, L181</li>
+					<li>Chiang, E., Kite, E., Kalas, P., Graham, J. R., and Clampin, M. 2009, ApJ, 693, 734 </li>
+					<li>Beichman, C.A. et al. 2006, ApJ, 652, 1674</li>
+					<li>Jang-Condell, H. 2009, ApJ, submitted. "Planet Shadows in Protoplanetary Disks. II: Observable Signatures" </li>
+					<li>Hauser, M.G., and Dwek, E., 2001, "The Cosmic Infrared Background: Measurements and Implications," ARAA, 39, 249 307</li>
+					<li>Blain, A.W. et al. 2002, Phys. Reports, 369, 111</li>
+					<li>Steidel, C.C. et al. 1999, ApJ, 519, 1 - 17</li>
+					<li>Giavalisco, M. et al. 2004, ApJ, 600, L103 &151; L106</li>
+					<li>Madau, P. Pozzetti, L., and Dickinson, M. 1998, ApJ, 498, 106</li>
+					<li>Hanish, D. J. et al. 2006, ApJ, 649, 150</li>
+					<li>Soifer, B. T., Helou, G., & Werner, M. ARA&A, 46, 201</li>
+					<li>Fischer, J. et al. 1999, Ap&SS, 266, 91</li>
+					<li>Malhotra, S. et al. 2001, ApJ, 561, 766</li>
+					<li>Farrah, D. et al. 2007, ApJ, 667, 149</li>
+					<li>Gonzalez-Alfonso, E. et al. 2008, ApJ, 675, 303</li>
+					<li>Meijerink, R., Spaans, M., & Israel, F. P. 2007, A&A, 461,793</li>
+					<li>Abel, N. P. et al. 2009, ApJ, in press (arXiv:astroph/0903.4643)</li>
+					<li>Thornley, M.D. et al. 2000, ApJ, 539, 641</li>
+					<li>Kraemer, S., Windhorst, R., Carpenter, K.G., Crenshaw, M., Elvis, E., and Karovska, M., "Active Galactic Nuclei and their role in Galaxy Formation and Evolution," an Astro2010 Science White Paper</li>
+					<li>Chiaberge, M., et al. "FRI radio galaxies at 1 < z < 2: Studying the building blocks of today's most massive galaxies and clusters by finding low luminosity radio galaxies at high-z," an Astro2010 Science White Paper</li>
+					<li>Armus, L., et al., "Lifting the Cosmic Veil on the Co-evolution of Black Holes and Galaxies: The Role of Far-Infrared Spectroscopy from Space,"an Astro2010 Science White Paper</li>
+					<li>Stacey, G.J., Bertoldi, F., Blain, A.W., Bradford, C.M., Giovanelli, R., Glenn, J., Goldsmith, P., Golwala, S., Nikola, T., and Zmuidzinas, J., "Star Formation Through Cosmic Time: From Local Galaxies to the Early Universe," an Astro2010 Science White Paper</li>
+					<li>Scowen, P., Jansen, R., Beasley, M., Calzetti, D., Desch, S., Gallagher, J., McCaughrean, M., O'Connell, R., Oey, S., Padgett, D., Roberge, A., and Smith, N. "Understanding Global Galactic Star Formation," an Astro2010 Science White Paper</li>
+					<li>Meixner, M., Mather, J., Clampin, M., Doyon, R., Flanagan, K., Franx, M., Gardner, J., Greenhouse, M., Hammel, H., Hutchings, J., Jakobsen, P., Lilly, S., McCaughrean, M., Mountain, M., Rieke, G., Sonneborn, G., Stiavelli, M., Windhorst, R., and Wright, G., "Stellar Populations with JWST: the Beginning and the End," an Astro2010 Science White Paper</li>
+					<li>Lockman, F.J., and Ott, J., "Nearby Galaxies: Templates for Galaxies Across Cosmic Time," an Astro2010 Science White Paper</li>
+					<li>Gordon, K., Meixner, M.,  Tielens, A., Kemper, F., Clayton, D., Zijlstra, A.A., and Sloan, G., "Lifecycle of Dust in Galaxies," an Astro2010 Science White Paper</li>
+					<li>Feigelson, E., Adams, F., Allen, L., Bergin, E., Bally, J., Balog, Z., Bourke, T., Brogan, C., Chu, Y.-H., Churchwell, E., Gagne, M., Getman, K., Hunter, T., Morgan, L., Massey, P.,  Mac Low, M.-M., Mamajek, E., Megeath, S.T., O'Dell, C.R., Rathborne, J., Rebull, L.,. Stahler, S., Townsley, L., Wang, J., and Williams, J., "Young Stellar Clusters and Star Formation Throughout the Galaxy," an Astro2010 Science White Paper</li>
+					<li>Sonneborn, G., Clampin, M., Hammel, H., and the JWST Science Working Group, "Study of Planetary Systems and Solar System Objects with JWST," an Astro2010 Science White Paper</li>
+					<li>Jones, R.L., Brown, M.E., Abell, P.A., Becker, A.C., Harris, A., and Ivezic, Z., "Next Steps in Studying the Outer Solar System,"an Astro2010 Science White Paper</li>
+					<li>Leisawitz, D., Carpenter, J., Danchi, W.C., Debes, J., Deming, L.D., Kuchner, M., Langer, W.D., Mundy, L.G., Najita, J., Neufeld, D., Rinehart, S.A., Roberge, A., Serabyn, E., Shenoy, S., Stark, C., Swain, M.R., Unwin, S.C., Wright, E., and Yorke, H.W., "Characterizing Extrasolar Planetary Systems," an Astro2010 Science White Paper</li>
+					<li>Deming, D. et al. 2005, Nature, 434, 740</li>
+					<li>Charbonneau, D. et al. 2005, ApJ, 626, 523</li>
+					<li>Deming, D. et al. 2006, ApJ, 644, 560</li>
+					<li>Harrington, J. et al. 2007, Nature, 447, 691</li>
+					<li>Knutson, H.A. 2007, Nature, 448, 143</li>
+					<li>Deming, D. et al. 2007, ApJ, 667, L199</li>
+					<li>Burgdorf, M.J. et al. 2004, Planetary and Sp. Sci., 52, 379</li>
+					<li>Hyde, T.T., Leisawitz, D.T., DiPietro, D., and Rinehart, S.A., "<a href="documents/2.SPIRIT_systems_SPIE07.pdf">System engineering the Space Infrared Interferometric Telescope (SPIRIT)</a>," in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870A1 &151; 12 (2007)</li>
+					<li>Wilson, M.E., Leisawitz, D.T., Martino, A.J., Rinehart, S.A., Crooke, J.A., Tveekrem, J.L., Budinoff, J.G., Quijada, M.A., and Hyde, T.T., "<a href="documents/4.SPIRIT_optical_SPIE07.pdf">The Space Infrared Interferometric Telescope (SPIRIT): Optical system design considerations</a>," in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870B1 &151; 11 (2007)</li>
+					<li>Budinoff, J.G., Leisawitz, D.T., Rinehart, S.A., DiPirro, M.J., Jones, D.L., Hyde, T.T., and Taylor, B., "<a href="documents/3.SPIRIT_mechanical_SPIE07.pdf">Mechanical design of the Space Infrared Interferometric Telescope (SPIRIT)</a>," in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870C1 &151; 11 (2007)</li>
+					<li>DiPirro, M.J., Cottingham, C., Boyle, R., Ollendorf, S., and Leisawitz, D.T., "<a href="documents/5.SPIRIT_thermal_SPIE07.pdf">The SPIRIT thermal system</a>," in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870D1 &151; 11 (2007)</li>
+					<li>Benford, D.J., Rinehart, S.A., Hyde, T.T., and Leisawitz, D.T., "<a href="documents/6.SPIRIT_detectors_SPIE07.pdf">Cryogenic far-infrared detectors for the Space Infrared Interferometric Telescope (SPIRIT)</a>," in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870E1 &151; 12 (2007)</li>
+					<li>Mariotti, J.-M., and Ridgway, S.T. 1988, A&A, 195, 350</li>
+					<li>Elias, N. et al. 2007, ApJ, 657, 1178</li>
+					<li>Rinehart, S.A. et al. 2007, in <i>UV/Optical/IR Space Telescopes: Innovative Technologies and Concepts III</i>, H.A. MacEwen & J.B. Breckinridge, eds., Proc. SPIE, 6687, 66870F1 &151; 10</li>
+					<li>Ade, P.A.R., Pisano, G., Tucker, C., and Weaver, S., in Millimeter and Submillimeter Detectors and Instrumentation for Astronomy III, J. Zmuidzinas, W.S. Holland, S.Withington, & W.D. Duncan, eds., Proc. SPIE, 6275, 62750U (2006)</li>
+					<li>Bock, J.J. et al. "Superconducting Detector Arrays for Far-Infrared to mm-Wave Astrophysics," an Astro2010 Technology White Paper</li>
+					<li>Shirron, P. et al. "Sub-Kelvin Cooler Technology," an Astro2010 Technology White Paper</li>
+					<li>DiPirro, M. et al. 2007, in <i>Cryogenic Optical Systems and Instruments XII</i>, J.B. Heaney & L.G. Burriesci, eds., Proc. SPIE, 6692, 669202 &151; 9</li>
+					<li>NASA Procedural Requirements Document, NPR 7120.8, NASA Research and Technology Program and Project Management Requirements, Appendix J. Technology Readiness Levels, eff. 5 February 2008, <a href="http://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7120_0008_&page_name=AppendixJ">http://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7120_0008_&page_name=AppendixJ</a></li>
+					<li>Kenyon, M., Day, P. K., Bradford, C. M., Bock, J. J., & Leduc, H. G. 2008, Journal of Low Temperature Physics, 151,  112;  "<i>Electrical Properties of Background-Limited Membrane-Isolation Transition-Edge Sensing Bolometers for Far-IR/Submillimeter Direct-Detection Spectroscopy</i>"</li>
+					<li>Day, P., LeDuc, H., Dowell, C.D., Lee, R.A., Turner, A., and Zmuidzinas, J., "Distributed Antenna-coupled TES for FIR detector arrays," J. Low Temp. Phys., 151, 477 (2008).</li>
+					<li>Barrentine, E. M., Timbie, P. T., Stevenson, T. R., Ali, S., Chervenak, J. A., Wollack, E., Moseley, S. H., Allen, C. A., Hseih, W. T., Miller, T. M., Benford, D. J., & Brown, A. D. 2008, J. Low Temp. Physics, 151, 173; "<i>Sensitivity Measurements of a Transition- Edge Hot-Electron Microbolometer for Millimeter-Wave Astrophysical Observations</i>"</li>
+					<li>Karasik, B. S., Pereverzev, S. V., Olaya, D., Wei, J., Gershenson, M. E., & Sergeev, A. V. 2008,  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series v.7020,  pp. 70200E-70200E-8;"<i>Electrical NEP in hot-electron titanium superconducting bolometers</i>"</li>
+					<li>Mazin, B.A., Day, P.K., LeDuc, H.G., Vayonakis, A., and Zmuidzinas, J., "Superconducting Kinetic Inductance Photon Detectors," Proc. SPIE 4849, 283 (2002).</li>
+					<li>Sergeev, A., Karasik, B., Gogidze, I., and Mitin, V., "Ultrasensitive Hot-Electron Kinetic-Inductance Detectors," in <i>Ninth International Workshop On Low Temperature Detectors</i>, F.S. Porter, D. McCammon, M. Galeazzi & C.K. Stahle, eds., AIP Conf. Proc. 605, 27 (2002)</li>
+					<li>Baselmans, J., Yates, S.J.C., de Korte, P., Hoevers, H., Barends, R., Hovenier, J.N., Gao, J.R., and Klapwijk, T.M., "Development of high-Q superconducting resonators for use as kinetic inductance detectors," Adv. Sp. Res., 40, 708 (2007)</li>
+					<li>Staguhn, J., Allen, C., Benford, D., Sharp, E., Ames, T., Arendt, R., Chuss, D., Dwek, E., Kovacs, A., Maher, S., Marx, C., Miller, T., Moseley, S., Navaroo, S., Sievers, A., Voellmer, G., and Wollack, E., "GISMO, a 2 mm Bolometer Camera Optimized for the Study of High Redshift Galaxies," J. Low Temp. Phys., 151, 709 (2008)</li>
+					<li>Leisawitz, D. et al. 2002, in M. Shao (Ed.), <i>Interferometry in Space</i>, Proc. SPIE, 4852, 255</li>
+					<li>Leisawitz, D.T., Martino, A.J., Thompson, A.K., Rinehart, S.A., and Frey, B.J., "An optical model of the Wide-field Imaging Interferometry Testbed," Proc. SPIE 6687,66870J1 - 9 (2007)</li>
+					<li>Lyon, R.G., Rinehart, S.A., Leisawitz, D.T., and Memarsadeghi, N., "Wide-field imaging interferometry testbed (WIIT): image construction algorithms," Proc. SPIE 7013, 70131M (2008)</li>
+					<li>Kohyama, T., et al., "Far-Infrared Interferometeric Telescope Experiment (FITE): sensor optics," in Optical and Infrared Interferometry, M. Sch&ouml;ller, W.C. Danchi & F. Delplancke, eds., Proc. SPIE 7013, 70133O (2008)</li>
+					<li>Caldwell, M.E., Swinyard, B.M., and Ferlet, M.J., "Test-bed interferometer to develop active optics techniques for space interferometers in mid-IR and far-IR astronomy missions," in Joint 32nd International Conf. on IR and Millimeter Waves, 2007, and the 2007 15th International Conference on Terahertz Electronics, IRMMW-THz, p. 182 (2007)</li>
+					<li>D. Naylor, private communication.</li>
+					<li>van den Dool, T.C., Kamphues, F., Gielesen, W., Dorrepaal, M., Doelman, N., Loix, N., Verschueren, J.P., Kooijman, P.P., Visser, M., Velsink, G., and Fleury, K., "The manufacturing, assembly and acceptance testing of the breadboard cryogenic Optical Delay Line for DARWIN," Proc. SPIE, 5904, 590415-1 &151; 11 (2005)</li>
+					<li>Leisawitz, D., Armstrong, T., Bender, C., Benford, D., Calzetti, D., Carpenter, J., Danchi, W.C., Fich, M., Fixsen, D., Gezari, D.Y., Griffin, M., Harwit, M., Kogut, A.J., Langer, W.D., Lawrence, C., Lester, D., Mundy, L.G., Najita, J., Neufeld, D., Pilbratt, G., Rinehart, S., Roberge, A., Serabyn, E., Shenoy, S., Shibai, H., Silverberg, R., Staguhn, J., Swain, M.R., Unwin, S.C., Wright, E., Yorke, H.W., "ExoPTF Science Uniquely Enabled by Far-IR Interferometry: Probing the Formation of Planetary Systems, and Finding and Characterizing Exoplanets," <a href="http://arxiv.org/abs/0707.0873v1">arXiv:0707.0873v1</a> (white paper submitted to the Exoplanet Task Force) (2007)</li>
+					<li>ESA CDF-49(A), 2006, <a href="http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=40738#">http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=40738#</a></li>
+				</ol>
+
+			</div>
+		</section>
+
+		<!-- <script src="footer.js"></script> -->
+		<!--#include virtual="assets/html/footer.html"-->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script> -->
+	<script src="assets/js/juxtapose.js"></script>
+
+
+	<script>
+		var $juxtapose = $('.juxtapose');
+
+		$juxtapose.each(function(index, element) {
+			var $juxtaposeContainer = $juxtapose.parent();
+			var juxtaposeRatio;
+
+			$(window).on('load', function (event) {
+				juxtaposeRatio = $(element).outerHeight() / $(element).outerWidth();
+			});
+
+			$(window).on('resize', function (event) {
+				var newWidth = $juxtaposeContainer.outerWidth();
+				var newHeight = newWidth * juxtaposeRatio;
+				$(element).css({width: newWidth, height: newHeight});
+			});
+
+		});
+	</script>
+
+</body>
+</html>

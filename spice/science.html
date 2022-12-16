@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SPICE mission concept</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--#include virtual="assets/html/analytics.html"-->
+	<link rel="stylesheet" href="assets/css/juxtapose.css">
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper" class="divided">
+		<!--#include virtual="assets/html/header.html"-->
+
+		<section class="wrapper style1 invert align-center" id="plots">
+			<div class="inner">
+				<h2>Capability Comparison</h2>
+
+				<p>Slide right for a Herschel view of the deep universe and left for the corresponding SPICE view. With Herschel, a 3.5-m telescope, the extragalactic sky was a blur. SPICE measures the spectra of individual galaxies out to high redshifts, enabling us to learn how they evolved.</p>
+				<div class="juxtapose">
+					<span class="image fit"><img src="./juxtapose/exgal_H.png"/></span>
+					<span class="image fit"><img src="./juxtapose/exgal_S.png"/></span>
+				</div>
+				<br><br>
+
+				<p>Slide right for a Herschel view of the LkCa15 protoplanetary disk at a wavelength of 100 microns, and slide left for the corresponding SPICE view. SPICE maps the water ice and gas contents of a large sample of known protoplanetary disks to help us understand how planets form and how some planets, like Earth, acquire their life-enabling water.</p>
+				<div class="juxtapose">
+					<span class="image fit"><img src="./juxtapose/LkCa15_Herschel_100um.png"/></span>
+					<span class="image fit"><img src="./juxtapose/LkCa15_SPICE.png"/></span>
+				</div>
+				<br><br>
+
+				<p>Slide right for a Herschel view of the Fomalhaut debris disk as if it were relocated to a distance of 100 parsecs, and slide left for the corresponding SPICE view. SPICE discerns the structure in a large sample of known debris disks. Just as the structure in Saturn's rings revealed the presence of moons, debris disk structure reveals the presence of planets. Thus, SPICE enables us to study planetary system architectures and place the solar system in context.</p>
+				<div class="juxtapose">
+					<span class="image fit"><img src="./juxtapose/Fomalhaut_Herschel_5_7arcsec_100pc_Padded.jpg"/></span>
+					<span class="image fit"><img src="./juxtapose/Fomalhaut_Spice_0_3arcsec_100pc_Padded.jpg"/></span>
+				</div>
+				<br><br>
+
+				<p>SPICE has the same sub-arcsecond angular resolution as the James Webb Space Telescope (JWST), but at ten times longer wavelengths. SPICE has more than an order of magnitude better resolution than any other far-infrared observatory.</p>
+				<span class="image fit"><img src="images/Capability/angular_resolution_comparison_v3.pdf.png" alt="Angular Resolution graph" /></span>
+				<br><br>
+
+				<p>With its cryo-cooled optical system and modern detector technology, SPICE offers an order of magnitude improvement in sensitivity over Herschel, the largest far-infrared telescope flown to date. A deep exposure with SPICE will provide the sensitivity needed to detect spectral lines and continuum emission from distant galaxies, informing us of their physical conditions and heavy element content and distinguishing between star formation activity and that of a central supermassive black hole.</p>
+				<span class="image fit"><img src="images/Capability/line_sensitivity_comparison_v4.pdf.png" alt="Spectral Line Sensitivity graph" /></span>
+				<br><br>
+
+				<p>SPICE measures a spectrum in every spatial pixel. The spectral resolving power is >3000 at all wavelengths. This is comparable to the resolving power of the mid-infrared instrument, MIRI, on JWST and two of Herschel’s instruments, PACS and SPIRE, because this resolution will enable SPICE to achieve its scientific objectives.</p>
+				<span class="image fit"><img src="images/Capability/spectral_resolving_power_comparison_v3.pdf.png" alt="Spectral Resolving Power graph" /></span>
+				<br><br>
+
+			</div>
+		</section>
+
+		<!-- <script src="footer.js"></script> -->
+		<!--#include virtual="assets/html/footer.html"-->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script> -->
+	<script src="assets/js/juxtapose.js"></script>
+
+
+	<script>
+		var $juxtapose = $('.juxtapose');
+
+		$juxtapose.each(function(index, element) {
+			var $juxtaposeContainer = $juxtapose.parent();
+			var juxtaposeRatio;
+
+			$(window).on('load', function (event) {
+				juxtaposeRatio = $(element).outerHeight() / $(element).outerWidth();
+			});
+
+			$(window).on('resize', function (event) {
+				var newWidth = $juxtaposeContainer.outerWidth();
+				var newHeight = newWidth * juxtaposeRatio;
+				$(element).css({width: newWidth, height: newHeight});
+			});
+
+		});
+	</script>
+
+</body>
+</html>

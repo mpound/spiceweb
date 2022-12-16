@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SPICE mission concept</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--#include virtual="assets/html/analytics.html"-->
+	<!-- <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"> -->
+	<link rel="stylesheet" href="assets/css/juxtapose.css">
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper" class="divided">
+		<!--#include virtual="assets/html/header.html"-->
+
+		<section class="wrapper style1 invert align-left" id="plots">
+			<div class="inner">
+				<h2>Frequently-asked questions about SPICE</h2>
+
+				<!-- Question 1 -->
+				<h3><span class="faqnum">1.</span> What limits the SPICE mission lifetime</h3>
+				<div class="faqanswer">
+					<p>Past far-infrared space missions (IRAS, COBE, ISO, WISE, AKARI, Herschel) used expendable cryogens, such as liquid helium or solid hydrogen for cooling, and the cryogen supply was mission lifetime-limiting. SPICE will employ mechanical cryocoolers like the cryocooler for the MIRI instrument on JWST to chill the telescopes and instrument chamber to 4.5 Kelvin. These cryocoolers not only save mass and volume, precious resources to a space mission, but they can operate for a decade or more in space, greatly outlasting the one-to-several-year supplies of expendable cryogen in past missions. So, what does limit the SPICE mission lifetime? Like JWST, SPICE will fly in an orbit around the Sun-Earth Lagrange 2 point, and occasional thruster firings are required to maintain the orbit. SPICE will be equipped with enough propellant to stay in orbit for at least 5 years. By design, the propellant supply will limit SPICE's lifetime.</p>
+				</div>
+
+				<!-- Question 2 -->
+				<h3><span class="faqnum">2.</span> Will SPICE provide a zero-spacing spectrum?</h3>
+				<div class="faqanswer">
+					<p>The SPICE light collecting telescopes are located on opposite sides of a beam-combining instrument, so there is a limit to how close they can get to each other. That sets the minimum interferometric baseline length. The minimum baseline will be about 5 &ndash; 6 meters. Shorter baselines sample more extended structure in the sky, and the far-infrared sky has emitting sources everywhere. Although SPICE's great strength is its ability to probe angular scales much smaller than those ever seen with past far-infrared telescopes, it is natural to ask if SPICE will also be able to probe the sky on large angular scales. With no modification to the planned design, every SPICE interferogram measures the broadband flux as seen with a 1-m diameter telescope in each of the four SPICE wavelength bands, 25-50, 50-100, 100-200, and 200-400 microns. However, for some applications it is desirable to have a "zero-spacing" spectrum to match up with the higher-resolution spectra available on small angular scales from the interferometric data. The SPICE team will run simulations to determine the importance of this otherwise missing information. If deemed important, the team will study an instrument modification that would split the beam from a single telescope and operate the beam-combining instrument as a conventional Fourier Transform Spectrometer. This would complement the interferometric (longer baseline) spectra and yield a more complete hyperspectral picture of the sky.</p>
+				</div>
+
+				<!-- Question 3 -->
+				<h3><span class="faqnum">3.</span> Will SPICE be able to observe moving Solar System objects?</h3>
+
+				<div class="faqanswer">
+					<p>Yes, although not by tracking the objects. Jupiter, Saturn, Titan, Uranus, and Neptune have proper motions up to 34, 18, 19, 9, and 6 arcseconds per hour, respectively, and SPICE could track these objects as they move across the sky. (SPICE is a zero (total) angular momentum system and can be continuously repointed while the system rotates.) However, SPICE must keep track of phase information, and it does so by monitoring interferometric fringes from stars in the near-infrared. Each field SPICE observes must contain at least one phase reference star drawn from the WISE source catalog. Sufficiently bright stars are plentiful, but we can't allow the phase reference star to drift out of the field of view while following a moving object. The field of view is 1 arcminute in diameter. Thus, even relatively fast-moving Jupiter would transit the SPICE field of view in about 106 minutes. To sample different interferometric baseline angles, SPICE rotates at about 1 revolution per hour. A half-rotation, lasting about 30 minutes, non-redundantly samples all baseline angles at a fixed baseline length (i.e., a full circle in the u-v plane). By judiciously choosing a field centered on a phase reference star located so the solar system object enters one side of the field and moves across the field, interferograms can be captured at all baseline angles while the solar system object is still in the field. A single optical delay line scan, resulting in a set of interferograms from all the detector pixels covering the field, takes about half a minute, during which time even fast-moving Jupiter would move only about 0.3", which is a small fraction of the primary beam, 6" at the shortest SPICE wavelength, 25 microns. There would be no smearing of the information due to the source's motion. The interferograms would be Fourier transformed to obtain the source spectrum.</p>
+
+					<p>Faster-moving objects could be observed the same way, but only in snapshots lasting no longer than the time for the object to move across the 1' FoV. In this case, one would identify a series of phase reference sources along the target's proper motion track and execute a series of short exposures, each one centered on a different phase reference star.</p>
+
+					<p>Simulations will tell us whether a half-rotation at a single baseline length would be sufficient. Baseline length changes take minutes, not hours, and it may be possible to sample a couple of baseline lengths and many angles in a little more than an hour.</p>
+				</div>
+
+				<!-- Question 4 -->
+				<h3><span class="faqnum">4.</span> Can SPICE measure Young Stellar Object (YSO) and protostar variability?</h3>
+
+				<div class="faqanswer">
+					<p>Yes, on timescales ranging from 30 minutes to 60 days, and with repeated measurements possible annually. Variability on longer timescales can be detected if the target was previously observed with Spitzer or Herschel. The Astro2020 Decadal Survey prioritized measurements like this and posed question F-Q3b.</p>
+
+					<p>SPICE's interferometric baseline length would be chosen to distinguish the individual closely spaced YSOs in a cluster, and thus the length would be in the 10 &ndash; 20-meter range. A half-rotation of the interferometer would take about a half-hour and sweep out a full circle in the u-v plane, which would yield sufficient spatial information to measure the 25-400 micron spectra of all the YSOs in the field of view. In a half-hour, SPICE will provide continuum sensitivity of the order of 0.1 mJy (5-sigma).</p>
+
+					<p>To equalize external optical path lengths across the FoV, the SPICE optical delay line sweeps across a range that also enables spectroscopy at R ~ 3000. Alternatively, if there is only a single YSO or protostar in the field, the SPICE optical delay line can scan over a restricted range to obtain a low-R spectral energy distribution. After a half-hour, SPICE can slew to a new target field or re-observe the same field. Thus, the shortest cadence for time-resolved spectral measurements is about 30 minutes. Any given patch of the sky will remain in the field of regard (accessible) for up to about 60 days, and repeated measurements can be made within that time window. The target will become accessible again after SPICE completes its orbit around the Sun at the Sun-Earth L2 point. In other words, there will be a gap in coverage lasting about 300 days between successive 60-day visibility periods.</p>
+				</div>
+
+				<h3><span class="faqnum">5.</span> Will SPICE make observations of astrochemical or astrobiological significance?</h3>
+
+				<div class="faqanswer">
+					<p><b>Solar system:</b> With its spectral resolving power R ~ 10<sup>3</sup>, SPICE can make significant contributions to measuring the gaseous composition of planetary atmospheres in the solar system. A Michelson interferometer (or Fourier Transform Spectrometer) can select a resolution up to a maximum dictated by the range of optical delays scanned. Therefore, in a given observing time spectral resolution can be traded for more spectra measured at a higher signal-to-noise ratio. Within the solar system, Saturn's moon Titan exhibits the most complex organic chemistry of any planetary atmosphere, and SPICE will be able to measure multiple organic gases such as C<sub>3</sub>H<sub>4</sub>, C<sub>4</sub>H<sub>2</sub> and C<sub>2</sub>N<sub>2</sub>. For all the outer planets, SPICE will be able to measure crucial isotopic ratios with high accuracy, including D/H, <sup>12</sup>C/<sup>13</sup>C, <sup>14</sup>N/<sup>15</sup>N, <sup>16</sup>O/<sup>18</sup>O, which provide vital information on planet formation and evolution. At lower spectral resolutions, SPICE will be able to provide important spectral imagery of icy satellite surfaces, which can yield compositional information.</p>
+
+					<p><b>Planet-forming regions:</b> Water is arguably the most important molecule for determining a planet's habitability, yet we know very little about the abundance and distribution of water in planet-forming regions. SPICE will transform our understanding of the water reservoir available to forming planetary systems: it will probe both the ice and gas phases of water via emission features in the far-IR and map the water distribution with spatial resolution comparable to ALMA's. These capabilities will allow SPICE to answer key questions like: how much water is available for planet & icy body formation? What is the interplay between the main planetary building blocks (gas, ice, and dust) in planet-forming regions? And, what is the diversity of water reservoirs in different planetary systems?</p>
+
+					<p>SPICE will also provide a new window for studying the chemistry of the biogenic elements CHONS in star- and planet-forming regions. The N, S, and O budgets are poorly constrained in planet-forming regions, with key carriers (NH<sub>3</sub>, H<sub>2</sub>S, H<sub>2</sub>O, OH) observable mainly or exclusively in the far-IR. For numerous other important CHNOS-bearing molecules (HCN, HCO+, CCH, and many more), SPICE will fill in the gap between the hot inner-disk gas accessible with JWST, and the cold outer-disk gas accessible with ALMA. In young sources, SPICE can also observe emission features of complex organic molecules in both the ice- and gas-phase, furthering our understanding of how prebiotic precursors are formed and inherited in the stages leading up to planet formation. Taken together, SPICE will open a vast new discovery space for astrochemistry in star- and planet-forming regions.</p>
+				</div>
+
+				<h3><span class="faqnum">6.</span> I heard that SPICE would help us understand planet formation, but what about star formation?</h3>
+
+				<div class="faqanswer">
+					<p>SPICE will also help us understand the role of water as a coolant in star formation and we will trace the water reservoir back in time to the protostellar stages that precede the onset of planetary system formation. SPICE will resolve outflows from protostars and inform our understanding of high and low-mass star formation in the Milky Way.</p>
+				</div>
+
+				<h3><span class="faqnum">7.</span> What will SPICE use for detectors?</h3>
+
+				<div class="faqanswer">
+					<p>SPICE could use either transition edge sensor (TES) bolometers or "microwave" kinetic inductance detectors (MKIDs). SPICE operates simultaneously in four wavelength bands (25-50, 50-100, 100-200, and 200-400 microns) and the Michelson beam combiner has two complementary output ports per band, so there are eight focal planes. SPICE tiles the interferometer's primary beam to fill a 1-arcminute field of view. The primary beam at wavelength &lambda; is 1.2&lambda;/D, where D is the light-collecting telescope diameter, 1 meter, and SPICE's detector arrays Nyquist sample the primary beam. Thus, the shortest wavelength band requires the highest pixel count, 14 x 14 pixels; fewer pixels are needed at longer wavelengths because the primary beam is larger. Detector noise will be subdominant to astrophysical background photon noise if the detector Noise Equivalent Power (NEP) is below a few x 10<sup>-19</sup> W/rt Hz. The detectors are sampled at ~200 &micro;s intervals while SPICE's optical delay line is scanned. Today's state-of-the-art MKID detectors satisfy the conditions for NASA's Technology Readiness Level (TRL) 5 for SPICE (Baselmans et al. 2022, A&A, 665, id.A17).</p>
+				</div>
+
+				<h3><span class="faqnum">8.</span> Can SPICE measure polarization?</h3>
+
+				<div class="faqanswer">
+					<p>No, SPICE is not polarization-sensitive.</p>
+				</div>
+
+				<h3><span class="faqnum">9.</span> Is SPICE ready to propose from a technological perspective?</h3>
+
+				<div class="faqanswer">
+					<p>Yes. When SPICE was studied in 2004 (then called SPIRIT), the team developed a technology roadmap showing calling for the maturation of several key technologies from their Technology Readiness Levels (TRLs) at that time. Far-infrared detectors were lagging all other critical technologies then and as noted above, are currently at TRL 5 and poised to reach TRL 6 in time for the SPICE instrument Preliminary Design Review. As of September 2022, all other SPICE mission-enabling technologies are similarly mature or even more advanced on the TRL scale. Industry-provided cryocoolers like the MIRI instrument cryocooler on the James Webb Space Telescope (JWST) will cool the SPICE optical system to 4.5 K (currently TRL 5 for SPICE). SPICE will employ several additional component technologies that have already been shown to satisfy mission requirements but haven't yet been demonstrated at 4.5 K and environmentally tested (TRL 6). These include a Continuous Adiabatic Demagnetization Refrigerator (CADR; Goddard technology, TRL 6 expected before SPICE proposal submission); steering mirrors (from JWST and other applications; TRL 9 if no modification required); an optical delay line and scan mechanism (COBE FIRAS, Cassini CIRS, and Herschel SPIRE heritage, and SPICA SAFARI demonstration); pathlength sensing and compensation (SPICA SAFARI demonstration and JPL laser metrology technology); 3-5 &micro;m guiding and zero-pathlength sensing (individual components are high-TRL, and will demonstrate subsystem TRL 6); bearing and distance sensing with photogrammetry/lidar (individual components are high-TRL, and will demonstrate subsystem TRL 6); and boom and telescope articulation (Shuttle Radar Topography Mission &ndash; SRTM &ndash; heritage, demonstrate survival after &gt;1000 expansion/retraction cycles; TRL 9 if no modifications required).</p>
+				</div>
+
+				<h3><span class="faqnum">10.</span> Will SPICE have a General Observer (GO) program?</h3>
+
+				<div class="faqanswer">
+					<p>The SPICE Science Team envisages a Legacy Science program and a Guest Observer program. The Legacy Science program will take about 1 year out of the 5-year minimum mission lifetime, leaving at least four years of observing time open to the community’s proposed investigations. In each case the observer will receive calibrated hyperspectral data cubes for analysis.</p>
+				</div>
+
+				</div>
+			</section>
+
+			<!-- <script src="footer.js"></script> -->
+			<!--#include virtual="assets/html/footer.html"-->
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!-- <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script> -->
+		<script src="assets/js/juxtapose.js"></script>
+
+
+		<script>
+			var $juxtapose = $('.juxtapose');
+
+			$juxtapose.each(function(index, element) {
+				var $juxtaposeContainer = $juxtapose.parent();
+				var juxtaposeRatio;
+
+				$(window).on('load', function (event) {
+					juxtaposeRatio = $(element).outerHeight() / $(element).outerWidth();
+				});
+
+				$(window).on('resize', function (event) {
+					var newWidth = $juxtaposeContainer.outerWidth();
+					var newHeight = newWidth * juxtaposeRatio;
+					$(element).css({width: newWidth, height: newHeight});
+				});
+
+			});
+		</script>
+
+	</body>
+	</html>
