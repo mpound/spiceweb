@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>SPICE mission concept</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--#include virtual="assets/html/analytics.html"-->
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper" class="divided">
+		<!--#include virtual="assets/html/header.html"-->
+
+		<section class="wrapper style1 invert align-center" id="leader">
+			<div class="inner">
+
+				<h2>Leadership</h2>
+				<section class="spotlight style2 invert orient-right content-align-left image-position-center onscroll-content-fade-in onscroll-image-fade-in">
+					<div class="content">
+
+						<h4> PI: Lee Mundy</h4>
+						<p>University of Maryland</p>
+						<p> Dr. Lee Mundy, professor in the Astronomy Department, studies the dense interstellar
+						medium, the formation of stars and the early stages of planet formation, at wavelengths 
+						from centimeters to near infrared. He was a leader in development of ground-based millimeter 
+						wavlength interferometry at US universities and interferometry software. Dr. Mundy was a
+						co-I on balloon mid-infrared interferometry project and the Wide-field Imaging Inerferometry 
+						Testbed, and participated in previous Far Infrared Interferometer Mission studies. He was previously the
+						Chair of the Astonomy Departent, the Director of the California Array for Research in 
+						Millimeter-wave Astronoy, and is currently Director of the Center for Research and  Exploration
+						in Space Science and Technology II, a cooperative agreement with Goddard Space Flight Center.
+						</p>
+					</div>
+					<div class="image">
+						<img src="images/Teams/Mundy.jpg" alt="" />
+					</div>
+				</section>
+
+                            <section class="spotlight style2 invert orient-right content-align-left image-position-center onscroll-content-fade-in onscroll-image-fade-in">
+
+
+                                        <div class="content">
+
+						<h4> Co-I: David Leisawitz</h4>
+						<p>NASA Goddard Space Flight Center</p>
+						<p>Dr. David Leisawitz is an infrared astrophysicist who�s eager to learn how habitable conditions develop during the process of planet formation. He was PI on the Space Infrared Interferometric Telescope mission concept study and recently served as NASA Study Scientist for the Origins Space Telescope. Earlier, Dr. Leisawitz was Mission Scientist for the Wide-field Infrared Survey Explorer (WISE) and Deputy Project Scientist for the Cosmic Background Explorer (COBE). He is proud of his recognition by McMaster University as �Co-Op Mentor of the Year� in 2009. Dr. Leisawitz regularly engages in leadership learning, most recently through a class on Leadership Decision Making offered by the Harvard Kennedy School Executive Education Program.</p>
+					</div>
+					<div class="image">
+						<img src="images/Teams/Leisawitz_square.jpg" alt="" />
+					</div>
+				</section>
+
+
+			</div>
+		</section>
+
+		<section class="wrapper style1 invert align-center" id="galactic">
+			<div class="inner">
+				<h2>Galaxy Evolution Working Group</h2>
+				<div class="items style3 small onscroll-fade-in">
+					<section>
+						<span class="image fit"><img src="images/Teams/Shivaei.jpg" alt="" /></span>
+						<h4>Irene Shivaei (Lead)</h4>
+						<p>University of Arizona</p>
+						<p>Irene Shivaei is an Assistant Research Professor and a former NASA Hubble fellow at the Astronomy department of the University of Arizona. She is a member of the science and commissioning teams of the James Webb Space Telescope (MIRI and NIRCam instruments). Her research is on understanding the dust and chemical enrichment of galaxies at the peak epoch of cosmic star formation activity, redshift of z~1-3. She uses astronomical facilities across the electromagnetic spectrum to study the high redshift universe.</p>
+					</section>
+
+					<section>
+						<span class="image fit"><img src="images/mug1F.png" alt="" /></span>
+						<h4>Susanne Aalto</h4>
+						<p>Chalmers University of Technology</p>
+						<p> Professor in Radio Astronomy and Chair of the Faculty senate at Chalmers University of Technology, Sweden. She studies the evolution of dusty galaxies and their supermassive black holes in the local and distant Universe. Recently she has focussed on the molecular feedback processes in AGNs and starbursts, and the extremely embedded and mysterious Compact Obscured Nuclei. Susanne Aalto is a member of the Swedish Royal Academy of Sciences and has served on several telescope committees, including the early stages of the ALMA Science Advisory Committees (ESAC and ASA), on the Origins STDT and as the leader of the extragalactic splinter group for OASIS.  She has led Chalmers Division for Astronomy and Plasma Physics until 2020.
+
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Bonato.png" alt="" /></span>
+							<h4>Matteo Bonato</h4>
+							<p>INAF-IRA Bologna</p>
+							<p>Matteo an infrared and radio astrophysicist. His research activity has been mostly focused on galaxy/AGN co-evolution. He worked out an evolutionary model which has the unique feature in providing a self-consistent description of the IR-to-mm spectro-photometric properties of galaxies as a whole, i.e. taking into account simultaneously the contributions from both star-formation and nuclear activity across the galaxy lifetime. This tool allowed him to work out predictions for photometric and spectroscopic surveys and pointed observations with instruments such as SPICA, JWST, OST, CORE and PICO. He also extended its galaxy/AGN evolutionary model to the radio regime. Such extension has been exploited to produce simulations for deep radio surveys with the SKA. He has also studied the physical properties and the evolution of star-forming galaxies and of radio-loud and radio-quiet AGNs using ALMA, LOFAR and WSRT data.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/mug1M.png" alt="" /></span>
+							<h4>Duncan Farrah</h4>
+							<p>University of Hawaii</p>
+							<p>Dr. Duncan Farrah is a member of faculty at the University of Hawaii. His science interests focus on infrared studies of galaxy assembly, especially intense, obscured episodes of star formation and AGN activity that build stellar and black hole mass in galaxies at all redshifts. He has previously served as part of the Spitzer IRS GTO Science team, and has conducted several large-scale projects with Herschel.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Kogut.jpg" alt="" /></span>
+							<h4>Alan Kogut</h4>
+							<p>NASA Goddard Space Flight Center</p>
+							<p>Al Kogut is an astrophysicist at NASA's Goddard Space Flight Center.  He builds instruments to study the early universe at far-infrared wavelengths, from both space and balloon-borne platforms.  He is PI for the ARCADE and PIPER missions as well as the PIXIE far-IR spectrometer concept.  He shared the Gruber Cosmology Prize and the  Breakthrough Cosmology Prize for his work on the Wilkinson Microwave Anisotropy Probe.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Scoville.jpg" alt="" /></span>
+							<h4>Nick Scoville</h4>
+							<p>Moseley Professor Emeritus of Astronomy, Caltech</p>
+							<p>He is an expert in the field of galaxy formation and evolution, the nature of the dense interstellar molecular gas in galaxies, and star formation, and millimeter-wave astronomy. He has been active in both theoretical and observational research related to infrared and submm observations of star formation and galaxy evolution. He was the initial leader of the COSMOS 2 square degree survey studying the evolution of galaxies at z = 0 - 6.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Sutter.jpg" alt="" /></span>
+							<h4>Jessica Sutter</h4>
+							<p>SOFIA Science Center - USRA</p>
+							<p>Jessica Sutter, a SOFIA post doctoral research fellow, studies the conditions in the interstellar medium (ISM) of local universe galaxies.  She received her PhD from the University of Wyoming in 2021 with a dissertation focused on measurements of the [CII] 158 micron line in comparisons with other infrared diagnostics.  Her recent work has focused on how spatially-resolved studies of this far-infrared emission line can inform us on the local conditions within nearby galaxies and provide context for high-z surveys.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Urry.jpg" alt="" /></span>
+							<h4>Meg Urry</h4>
+							<p>Yale University</p>
+							<p>Israel Munson Professor of Physics and Astronomy at Yale University and Director of the Yale Center for Astronomy & Astrophysics, studies the co-evolution of massive black holes and galaxies using multi-wavelength surveys. She is especially interested in using infrared diagnostics to disentangle starlight and accretion. She chaired the 2010 decadal survey panel on Galaxies Across Cosmic Time and was a member of the UV-optical space panel for the 2020 decadal. She also served in the presidential line of the American Astronomical Society 2013-2017, where she focused on accessibility, inclusion, and careers beyond academia. Prior to Yale, she was a senior astronomer at the Space Telescope Science Institute, helping run the Hubble Space Telescope for NASA.
+							</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/mug2M.png" alt="" /></span>
+							<h4> David Sanders </h4>
+							<p> University of Hawaii </p>
+							<p>
+
+							</p>
+						</section>
+
+
+
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Protoplanetary Disks -->
+			<section class="wrapper style1 invert align-center" id="proto">
+				<div class="inner">
+					<h2> Protostellar and Planet Formation Working Group </h2>
+					<div class="items style3 small onscroll-fade-in">
+						<section>
+							<span class="image fit"><img src="images/Teams/Lovell.jpg" alt="" /></span>
+							<h4>Josh Lovell (Lead)</h4>
+							<p>University of Cambridge</p>
+							<p>Josh is a final-year post-Graduate student at the University of Cambridge. His research is focused on understanding the formation and evolution of planetary systems – their planets, asteroids, and comets – using high-resolution observations of circumstellar dust and gas. He is particularly interested in learning what happens to planetary systems during and immediately following the dispersal of their primordial discs, and how this connects to the assembly and development of exo-Solar Systems. He has recently accepted an SMA Fellowship at the CfA (Harvard & Smithsonian), starting in the Fall.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Bergner.png" alt="" /></span>
+							<h4>Jennifer Bergner</h4>
+							<p>University of Chicago</p>
+							<p>Jenny is a NASA Sagan fellow in the Department of the Geophysical Sciences at the University of Chicago.  She uses observations, lab experiments, and simulations to study chemistry in protostars and protoplanetary disks, the progenitors of planetary systems.  She is interested in understanding how chemistry along the star- and planet-formation sequence shapes the volatile/organic compositions of nascent planets and icy bodies.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Mcclure.jpg" alt="" /></span>
+							<h4>Melissa McClure</h4>
+							<p>Leiden Observatory</p>
+							<p>Melissa is an Assistant Professor at the Leiden Observatory, where she studies the building blocks of planets forming in protoplanetary disks around young stars. She has worked within the Spitzer IRS GTO Science team and led or contributed to several programs with the Herschel Space Observatory. Presently she is the PI of three Cycle 1 observing programs, including the IceAge Early Release Science program, with the James Webb Space Telescope to determine the chemical evolution of comet-forming ices over time.</p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Trapman.jpg" alt="" /></span>
+							<h4>Leon Trapman</h4>
+							<p>University of Wisconsin-Madison</p>
+							<p>A post-doc at the University of Wisconsin-Madison. He studies protoplanetary disks around young stars, the sites where planets form and grow, by combining state-of-the-art thermochemical models with sensitive observations to measure bulk properties of the gas in these disks, like the total gas mass and gas outer radius, and how these properties evolve over time. His current research focuses on two fundamental questions: How much gas do planet-forming disks have to form gas giants? And what mechanism drives the evolution of the gas in these disks?/p>
+						</section>
+
+						<section>
+							<span class="image fit"><img src="images/Teams/Wilner.jpg" alt="" /></span>
+							<h4>David Wilner</h4>
+							<p>Harvard University</p>
+							<p>An Associate Director of the Radio and Geoastronomy Division at the Center for Astrophysics | Harvard & Smithsonian. He has more than two decades of experience with research on planet formation using radio interferometry to probe the structure, kinematics and chemistry of disks around young stars. He was a member of the development, commissioning and science team for the Submillimeter Array, a pioneering ground-based telescope for high spatial and spectral resolution observations at submillimeter wavelengths. He has developed and delivered lectures on imaging and deconvolution in radio interferometry to thousands of students and Youtube viewers.</p>
+						</section>
+
+						</div>
+					</div>
+				</section>
+
+
+				<!-- Debris Disks -->
+				<section class="wrapper style1 invert align-center" id="debris">
+					<div class="inner">
+						<h2>Planetary Systems Architecture Working Group </h2>
+						<div class="items style3 small onscroll-fade-in">
+							<section>
+								<span class="image fit"><img src="images/Teams/Pokorny.png" alt="" /></span>
+								<h4>Petr Pokorny (Lead)</h4>
+								<p>The Catholic University of America/NASA Goddard Space Flight Center</p>
+								<p>Research Scholar who works on modeling and structure of debris disks with a focus on the inner Zodiacal Cloud. His research follows the dynamical evolution of dust and meteoroids, analyzes the effects of meteoroid bombardment on airless bodies, and importance of meteoroid influx onto terrestrial planets. </p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Crotts.jpg" alt="" /></span>
+								<h4>Katie Crotts</h4>
+								<p>University of Victoria</p>
+								<p>Graduate Student focusing on exoplanetary systems and debris disks. Her thesis led by Prof. Matthews is focused on asymmetries in debris disks that are signatures giant planets.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Kennedy.png" alt="" /></span>
+								<h4>Grant Kennedy</h4>
+								<p>University of Warwick</p>
+								<p>Royal Society University Research Fellow who works on various theoretical and observational aspects of planet formation and the end results – planets and debris disks – as seen around nearby stars. He works on transiting dust populations, what debris disks may tell us about the alignment of orbits in stellar and planetary systems, and the possible impact of exo-Zodiacal dust on future missions to image Earth-like planets around other stars.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Matthews2.jpg" alt="" /></span>
+								<h4>Brenda Matthews</h4>
+								<p>Herzberg Astrophysics</p>
+								<p>An astronomer at the National Research Council of Canada, studies the disk components of planetary systems around young and mature stars utilizing infrared and radio telescopes.  She was the PI of the Herschel DEBRIS Survey and a coordinator of the SCUBA-2 Observations of Nearby Stars (SONS) survey. She was a panel member for Canada’s 2020 Long Range Plan for Astronomy and the inaugural chair of the Equity and Inclusivity Committee of the Canadian Astronomical Society.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Najita.jpg" alt="" /></span>
+								<h4>Joan R. Najita</h4>
+								<p>NOIRlab</p>
+								<p>Astronomer at NOIRLab, the National Science Foundation’s research and development center for ground-based optical and infrared astronomy. Her research is primarily aimed at understanding how stars form from interstellar clouds and how disks surrounding young stars evolve to produce planets and the chemical ingredients of life. In recent years, she has pioneered the development of innovative techniques to probe planet-formation environments, including infrared molecular spectroscopy of disks, thermal-chemical models of disk atmospheres, and the synthesis of diverse data sets.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Su.png" alt="" /></span>
+								<h4>Kate Su</h4>
+								<p>University of Arizona</p>
+								<p>Research Professor at Steward Observatory. Her research broadly focuses on dust around all different kinds of stars, especially in a disk form. Lately, her emphasis has been on planetary debris disks and comprises interpretation of data with the goal of understanding the origin, evolution and fate of our Solar System. She specializes in modeling the dust distribution and grain properties in circumstellar disks using spatially resolved imaging data and global spectral energy distributions. She investigates the implication of the presence of debris disks on planet formation and evolution and understanding the observational characteristics of debris disks as tracers of planet formation. </p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Wyatt.jpg" alt="" /></span>
+								<h4>Mark Wyatt</h4>
+								<p>University of Cambridge</p>
+								<p>Professor at the Institute of Astronomy at University of Cambridge. The aim of his research is to understand how planetary systems form and evolve. It involves both theoretical and observational studies of extrasolar planetary systems, as well as of our own solar system. The main strength of his research is in the development of models of the physical and dynamical evolution of circumstellar material and their application to the interpretation of circumstellar disk observations. </p>
+							</section>
+
+						</div>
+					</div>
+				</section>
+
+				<!-- Instrumentation -->
+				<section class="wrapper style1 invert align-center" id="instrumentation">
+					<div class="inner">
+						<h2>Instrument Performance Modeling</h2>
+						<div class="items style3 small onscroll-fade-in">
+							<section>
+								<span class="image fit"><img src="images/Teams/Bracken.jpg" alt="" /></span>
+								<h4>Colm Bracken </h4>
+								<p>Dublin Institute for Advanced Studies</p>
+								<p>A lecturer in Experimental Physics at Maynooth University, Kildare, Ireland. Coordinating modules in Computational Optics, Device Physics, and other topics. Colm’s research at Maynooth University is focused on optics and quasi-optics, electromagnetic modeling, and far-infrared interferometry simulation.
+									Colm is also a Research Associate of DIAS (Dublin's Institute for Advanced Studies), where he works with a new research group headed by Professor Tom Ray in the Astronomy & Astrophysics Section of DIAS' School of Cosmic Physics. At DIAS, the group are designing, fabricating, and testing low-temperature MKID detector arrays toward a new camera for optical/near-infrared astronomy & astrophysics.
+								</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/mug2M.png" alt="" /></span>
+								<h4>Gerard van Belle </h4>
+								<p>Lowell Observatory</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Matsuo.png" alt="" /></span>
+								<h4>Taro Matsuo</h4>
+								<p>Nagoya University</p>
+								<p>Associate Professor of Nagoya University. He focuses on developing unique methods and instruments for exoplanet detection and characterization, such as highly stable spectroscopy, coronagraphy, and interferometry. He brings an approach to SPICE and aims to detect and characterize the thermal light from cold Jovian planets orbiting nearby matured stars at infrared wavelengths. He also involves in several interferometric experiments: a balloon-borne infrared interferometer and formation flying interferometers in space.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Spencer.jpg" alt="" /></span>
+								<h4>Locke Spencer (lead) </h4>
+								<p>University of Lethbridge</p>
+								<p>An Associate Professor and Canada Research Chair in Experimental Astrophysics within the Department of Physics and Astronomy at the University of Lethbridge (Alberta, Canada). Specializing in Fourier Spectroscopy in the Far-Infrared, he has worked extensively on the Herschel/SPIRE and Planck/HFI instrument teams, and is involved in several collaborations related to Far-IR astrophysics and related instrumentation. Current laboratory research activities include development of a Far-Infrared Double-Fourier interferometry testbed, and related cryogenic detector system development and calibration, cryogenic composite materials, and software, hardware, and opto-mechanical development.</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/mug2F.png" alt="" /></span>
+								<h4>Carole Tucker</h4>
+								<p>Cardiff University</p>
+							</section>
+
+							<section>
+								<span class="image fit"><img src="images/Teams/Wilner.jpg" alt="" /></span>
+								<h4>David Wilner</h4>
+								<p>Harvard University</p>
+								<p>An Associate Director of the Radio and Geoastronomy Division at the Center for Astrophysics | Harvard & Smithsonian. He has more than two decades of experience with research on planet formation using radio interferometry to probe the structure, kinematics and chemistry of disks around young stars. He was a member of the development, commissioning and science team for the Submillimeter Array, a pioneering ground-based telescope for high spatial and spectral resolution observations at submillimeter wavelengths. He has developed and delivered lectures on imaging and deconvolution in radio interferometry to thousands of students and Youtube viewers.</p>
+							</section>
+
+
+						</div>
+					</div>
+				</section>
+
+				<!-- <script src="footer.js"></script> -->
+				<!--#include virtual="assets/html/footer.html"-->
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		</body>
+		</html>
