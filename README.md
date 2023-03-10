@@ -1,2 +1,2 @@
 # spiceweb
-This is the website for the Space Interferometer for Cosmic Evolution (SPICE) mission.
+This is the website for the Space Interferometer for Cosmic Evolution (SPICE) mission. Yes
